@@ -46,9 +46,12 @@ def chat() -> None:
 
     while True:
         user_input: str = input('Tu: ')
+        resposta = obter_resposta(user_input)
+        print(f'Bot: {resposta}')
 
         if resposta == 'Gostei de falar contigo! Até breve...':
             break
+
 
     print('Chat acabou')
     print()
