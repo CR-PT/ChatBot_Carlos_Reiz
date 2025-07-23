@@ -4,7 +4,7 @@ from datetime import datetime
 def obter_resposta(texto: str) -> str:
     comando: str = texto.lower()
 
-    # if comando in ('olá', 'boa tarde', 'bom dia'):
+# if comando in ('olá', 'boa tarde', 'bom dia'):
 #     return 'Olá tudo bem!'
 # if comando == 'como estás':
 #     return 'Estou bem, obrigado!'
@@ -64,7 +64,7 @@ def chat() -> None:
             break
 
 
-    print('Chat acabou')
+    print(f'Chat acabou em {datetime.now():%d/%m/%Y %H:%M}')
     print()
 
 
