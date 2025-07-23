@@ -24,6 +24,17 @@ def obter_resposta(texto: str) -> str:
 respostas = {
     ('olá', 'boa tarde', 'bom dia'): 'Olá tudo bem!',
     'como estás': 'Estou bem, obrigado!',
+    'quem és tu': 'Sou um chatbot em Python!',
+    'qual a linguagem que falas?': 'Falo apenas Python 🐍',
+    'o que podes fazer?': 'Posso responder perguntas simples!',
+    'qual é a tua cor favorita?': 'Azul, como o céu!',
+    'qual é a tua comida favorita?': 'Bits e bytes!',
+    'sabes programar?': 'Claro, sou feito de código!',
+    'diz uma piada': 'Por que o Python atravessou a estrada? Para importar o módulo do outro lado!',
+    'qual é a capital de Portugal?': 'Lisboa!',
+    'gostas de música?': 'Sim, adoro algoritmos musicais!',
+    'estás feliz?': 'Sim, quando me fazem boas perguntas!',
+
     ('bye', 'adeus', 'tchau'): 'Gostei de falar contigo! Até breve...',
 }
 
